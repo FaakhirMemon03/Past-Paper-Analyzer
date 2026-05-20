@@ -1,0 +1,84 @@
+========================================================================
+             📚 PAST PAPER ANALYZER - WORKSPACE SETUP & RUN GUIDE
+========================================================================
+
+This workspace contains a microservices-based application:
+1. React Frontend (Vite) - Runs on http://localhost:3000
+2. Express Backend (Node) - Runs on http://localhost:5000
+3. Python AI Engine (FastAPI) - Runs on http://localhost:5001
+
+------------------------------------------------------------------------
+STEP 1: Run the Python AI Engine
+------------------------------------------------------------------------
+The Python engine extracts text, segments questions, groups duplicates,
+classifies topics, and builds predictions.
+
+1. Navigate to the `ai_engine` folder in your terminal:
+   cd ai_engine
+
+2. Create a Python virtual environment (recommended):
+   python -m venv venv
+   venv\Scripts\activate      # For Windows
+
+3. Install the dependencies:
+   pip install -r requirements.txt
+
+4. Run the FastAPI server:
+   python main.py
+
+* Note: The script utilizes standard Python math and scikit-learn for text
+  vectorization and similarity grouping. If PyMuPDF (fitz) or Tesseract OCR
+  are not found, the script logs a warning and falls back to text-only or
+  mocked matches gracefully.
+
+------------------------------------------------------------------------
+STEP 2: Run the Express Backend
+------------------------------------------------------------------------
+The backend handles authentication, upload requests, db queries, logs,
+and communicates with the Python AI Engine.
+
+1. Navigate to the `backend` folder in another terminal window:
+   cd backend
+
+2. Install Node.js dependencies:
+   npm install
+
+3. Run the development server:
+   npm run dev
+
+* Note: On startup, the backend automatically seeds a default Admin account:
+  - Email: PP@admin.com
+  - Password: PP@access.com
+  
+  If MongoDB is not running locally (on port 27017), the server displays
+  a warning and automatically boots into an "In-Memory Fallback Mode".
+  All functions (Register, Upload, Analyze, Admin dashboard) will still
+  work out of the box so you can demo the application instantly!
+
+------------------------------------------------------------------------
+STEP 3: Run the Vite React Frontend
+------------------------------------------------------------------------
+The frontend is a premium glassmorphic dashboard built using React and
+modern CSS variables.
+
+1. Navigate to the `frontend` folder in a third terminal window:
+   cd frontend
+
+2. Install Vite dependencies:
+   npm install
+
+3. Launch the local dev server:
+   npm run dev
+
+4. Open http://localhost:3000 in your web browser.
+
+------------------------------------------------------------------------
+KEY SECURITY RULES IMPLEMENTED (.md Rule)
+------------------------------------------------------------------------
+As requested, Markdown (.md) files are strictly filtered out and ignored 
+silently at all execution levels:
+1. UI: Files ending in `.md` are ignored in drag-and-drop / file selection.
+2. Express: Multer skips `.md` uploads silently.
+3. Python AI Engine: The OCR and extraction controllers ignore `.md` extensions
+   to prevent text parsing or classification on markdown templates.
+========================================================================
