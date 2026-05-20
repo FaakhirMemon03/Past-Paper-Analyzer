@@ -437,7 +437,7 @@ app.post('/api/upload', authenticateToken, upload.array('files'), async (req, re
     console.warn('Backend generating an intelligent mocked report for demonstration...\n');
 
     // MOCKED REPORT GENERATOR (so app is immediately interactive without Python engine)
-    const topicDist = {};
+    let topicDist = {};
     let predictions = [];
     let repeated = [];
     let studyPlan = [];
