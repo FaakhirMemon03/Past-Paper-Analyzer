@@ -52,7 +52,7 @@ class AnalysisRequest(BaseModel):
 
 # --- EXTRACT TEXT ---
 def extract_text_from_file(file_path: str) -> str:
-    """Extracts text from PDF, Image, or TXT file. Ignores .md files silently."""
+    """Extracts text from PDF, Image, DOCX, DOC, or TXT file. Ignores .md files silently."""
     if file_path.lower().endswith('.md'):
         print(f"[AI ENGINE] Skipping .md file silently: {file_path}")
         return ""
@@ -68,6 +68,41 @@ def extract_text_from_file(file_path: str) -> str:
         if ext == '.txt':
             with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
                 text = f.read()
+        
+        elif ext == '.docx':
+            import zipfile
+            import xml.etree.ElementTree as ET
+            try:
+                with zipfile.ZipFile(file_path) as docx:
+                    xml_content = docx.read('word/document.xml')
+                    root = ET.fromstring(xml_content)
+                    ns = {'w': 'http://schemas.openxmlformats.org/wordprocessingml/2006/main'}
+                    paragraphs = []
+                    for para in root.findall('.//w:p', ns):
+                        texts = [node.text for node in para.findall('.//w:t', ns) if node.text]
+                        if texts:
+                            paragraphs.append("".join(texts))
+                    text = "\n".join(paragraphs)
+            except Exception as e:
+                print(f"[AI ENGINE] DOCX parsing failed: {e}")
+
+        elif ext == '.doc':
+            try:
+                with open(file_path, 'rb') as f:
+                    content = f.read()
+                # Find ASCII printable strings (Unix strings-like utility)
+                ascii_strings = re.findall(b'[a-zA-Z0-9\s\?\.\,\:\-\+\*\/]{4,}', content)
+                decoded_lines = []
+                for s in ascii_strings:
+                    try:
+                        decoded = s.decode('ascii').strip()
+                        if len(decoded) > 12:
+                            decoded_lines.append(decoded)
+                    except:
+                        pass
+                text = "\n".join(decoded_lines)
+            except Exception as e:
+                print(f"[AI ENGINE] DOC parsing failed: {e}")
         
         elif ext == '.pdf':
             # Try PyMuPDF (fitz)
@@ -125,6 +160,7 @@ def extract_text_from_file(file_path: str) -> str:
         print(f"[AI ENGINE] General error extracting from {file_path}: {e}")
 
     return text
+
 
 # --- CLEAN TEXT ---
 def clean_text(text: str) -> str:
