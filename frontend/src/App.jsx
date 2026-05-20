@@ -269,6 +269,7 @@ export default function App() {
   const onFileSelect = (e) => {
     if (e.target.files) {
       processSelectedFiles(e.target.files);
+      e.target.value = ""; // Clear value to allow selecting the same file again
     }
   };
 
