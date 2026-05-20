@@ -775,13 +775,13 @@ export default function App() {
                     ref={fileInputRef} 
                     onChange={onFileSelect} 
                     multiple 
-                    accept=".pdf, image/*" 
+                    accept=".pdf, .docx, .doc, .txt, image/*" 
                     style={{display: 'none'}} 
                   />
                   <UploadCloud size={48} className="upload-icon" />
                   <h3 style={{marginBottom: '0.5rem'}}>Drag & drop past papers here</h3>
                   <p style={{color: 'var(--text-muted)', fontSize: '0.9rem'}}>
-                    Supports PDF, PNG, JPG, JPEG (Max 20MB). Markdown (.md) files are skipped.
+                    Supports PDF, DOCX, DOC, TXT, PNG, JPG (Max 20MB). Markdown (.md) files are skipped.
                   </p>
                 </div>
 
