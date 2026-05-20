@@ -325,7 +325,7 @@ app.post('/api/upload', authenticateToken, upload.array('files'), async (req, re
   // We've already filtered out .md files in multer fileFilter, but we double-check here.
   const validFilePaths = files
     .filter(file => !file.originalname.toLowerCase().endsWith('.md'))
-    .map(file => file.path);
+    .map(file => path.resolve(file.path));
 
   if (validFilePaths.length === 0) {
     return res.status(400).json({ success: false, message: 'No valid non-markdown files uploaded.' });
@@ -334,13 +334,14 @@ app.post('/api/upload', authenticateToken, upload.array('files'), async (req, re
   // Save Paper Records in DB
   const paperRecords = [];
   for (const file of files) {
+    const absolutePath = path.resolve(file.path);
     if (db.isConnected()) {
       try {
         const paper = await Paper.create({
           subject,
           board,
           fileName: file.originalname,
-          filePath: file.path,
+          filePath: absolutePath,
           uploadedBy: userId
         });
         paperRecords.push(paper);
@@ -353,7 +354,7 @@ app.post('/api/upload', authenticateToken, upload.array('files'), async (req, re
         subject,
         board,
         fileName: file.originalname,
-        filePath: file.path,
+        filePath: absolutePath,
         uploadedBy: userId,
         uploadedAt: new Date()
       };
