@@ -1,0 +1,65 @@
+--- PAGE 1 ---
+Total No. of Questions: 38
+Total No. of Printed Pages: 3
+Time: 3 Hours
+3119(N)
+PHYSICS - PAPER - I (NEW) (English Version)
+Max. Marks: 85
+
+SECTION - A
+I. Answer all the following questions. Each question carries one mark. (9 x 1 = 9)
+1. Which of the following physical quantity has no dimensions ?
+   (1) Angular Velocity (2) Angular Acceleration (3) Angular Displacement (4) Stress
+2. Why gases cannot support the propagation of transverse wave ?
+   (1) Gases are incompressible (2) Gases have no shearing stress (3) Density of gas is less (4) Gases can flow
+3. Among the following, the material with the highest elasticity is:
+   (1) Copper (2) Aluminium (3) Brass (4) Steel
+4. The value of an acceleration of a freely falling body is ________.
+5. Hydraulic lift and hydraulic brakes are based on ________ law.
+6. A monatomic gas molecule has ________ degrees of freedom.
+7. When are the two vectors said to be equal vectors ?
+8. State Kepler's law of areas.
+9. Write the mathematical equation of Newton's Second Law.
+
+SECTION - B
+II. Answer all the following questions. Each question carries two marks. (14 x 2 = 28)
+10. Write the physical quantities that are having Jm^-1 and Jm^-2 as their units.
+11. The states of motion and rest are relative. Explain.
+
+--- PAGE 2 ---
+12. If P = 2i + 4j + 14k and Q = 4i + 4j + 10k find the magnitude of P + Q
+13. What is inertia? What gives the measure of inertia ?
+14. State the relation between the kinetic energy and momentum of a body.
+15. We cannot open or close the door by applying force at the hinges. Why?
+16. What are the factors that make 'g' the least at the equator and maximum at the poles ?
+17. State Hooke's law of elasticity.
+18. Give the expression for the excess pressure in a soap bubble in air.
+19. The roof of buildings is often painted white during summer. Why?
+20. What thermodynamic variables can be defined by (a) Zeroth law (b) First law?
+21. Define mean free path.
+22. What happens to the energy of a simple harmonic oscillator if its amplitude is doubled ?
+23. What are beats ?
+
+SECTION - C
+III. Answer any eight of the following questions. Each question carries four marks. (8 x 4 = 32)
+24. Explain the terms the average velocity and instantaneous velocity. When are they equal ?
+25. Show that the maximum height reached by a projectile launched at an angle of 45° is one quarter of its range.
+26. Mention the methods used to decrease friction.
+27. Define vector product. Explain the properties of a vector product with two examples.
+28. When 100 J of work is done on a fly wheel, its angular velocity is increased from 60 rpm to 180 rpm. What is the moment of inertia of the wheel ?
+29. What is escape velocity? Obtain an expression for it.
+
+--- PAGE 3 ---
+30. Define Young's modulus, Bulk modulus and Shear modulus.
+31. What is atmospheric pressure? How is it determined using a barometer ?
+32. In what way is the anomalous behaviour of water advantageous to aquatic animals?
+33. If the maximum intensity of radiation for a black body is found at 2.65 um, what is the temperature of the radiating body ? (Wien's constant = 2.9 x 10^-3 mK)
+34. What is the ratio of r.m.s. speed of Oxygen and Hydrogen molecules at the same temperature ?
+35. Explain the modes of vibrations of an air column in a closed pipe.
+
+SECTION - D
+IV. Answer any two of the following questions. Each question carries eight marks. (2 x 8 = 16)
+36. Define elastic and inelastic collisions. Derive expressions for the final velocities of bodies in one dimensional elastic collision, when one body collides with other body which is initially at rest.
+37. Define two specific heat capacities of a gas and derive the relation between them on the basis of first law of thermodynamics.
+38. (a) Define simple harmonic motion. Show that the motion of (point) projection of a particle performing uniform circular motion, on any diameter, is simple harmonic.
+    (b) A particle executes SHM such that, the maximum velocity during the oscillation is numerically equal to half of the maximum acceleration. What is the time period ?

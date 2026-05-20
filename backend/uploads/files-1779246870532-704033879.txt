@@ -1,0 +1,46 @@
+--- PAGE 1 ---
+Total No. of Questions - 21
+Total No. of Printed Pages - 2
+Part -III
+Time: 3 Hours
+PHYSICS, Paper - I (English Version)
+
+Note :- Read the following instructions carefully -
+(i) Max. Marks: 60
+(ii) Answer all the questions of Section-A. Answer any six questions in Section-B and answer any two questions in Section-C.
+(iii) In Section-A, questions from Sr. Nos. 1 to 10 are Very Short Answer Type. Each question carries two marks. Answer all questions at one place in the same order.
+(iv) In Section-B, questions from Sr. Nos 11 to 18 are of Short Answer Type. Each question carries four marks.
+In Section-C, question from Sr. Nos. 19 to 21 are of Long Answer Type. Each question carries eight marks.
+
+SECTION - A
+Note:- Answer all questions. (10 x 2 = 20)
+1. What is the contribution of S. Chandrasekhar to Physics?
+2. Why do we have different units for the same physical quantity?
+3. A = i + j. What is the angle between the vector and x-axis?
+4. What is inertia? What gives the measure of inertia?
+5. Define average pressure. Mention its unit and dimensional formula. Is it a scalar or a vector?
+6. Find the increase in temperature of aluminium rod if its length is to be increased by 1%. (alpha for aluminium = 2.5 x 10^-6 / °C).
+7. Define mean free path.
+8. When does a real gas behave like an ideal gas?
+9. What is the pressure on a swimmer 10 m below the surface of a lake?
+10. Distinguish between heat and temperature.
+
+--- PAGE 2 ---
+SECTION-B
+Note:- Answer any six questions. (6 x 4 = 24)
+11. A car travels the first third of a distance with a speed of 10 kmph, the second third at 20 kmph and the last third at 60 kmph. What is its mean speed over the entire distance?
+12. A force 2i + j - k newton acts on a body which is initially at rest. At the end of 20 seconds, the velocity of the body is 4i + 2j - 2k ms^-1. What is the mass of the body?
+13. Mention the methods used to decrease friction.
+14. Distinguish between centre of mass and centre of gravity.
+15. Define angular acceleration and torque. Establish the relation between angular acceleration and torque.
+16. How does the acceleration due to gravity (g) change for the same values of height (h) and depth (d).
+17. Describe the behavior of a wire under gradually increasing load.
+18. Explain conduction, convection and radiation with examples.
+
+SECTION - C
+Note :- Answer any two questions. (2 x 8 = 16)
+19. (a) State and prove Law of Conservation of Energy in case of a freely falling body.
+    (b) A machine gun fires 360 bullets per minute and each bullet travels with a velocity of 600 ms^-1. If the mass of each bullet is 5 gm, find the power of the machine gun.
+20. (a) Define simple harmonic motion. Show that the motion of (point) projection of a particle performing uniform circular motion on any diameter is simple harmonic.
+    (b) On an average a human heart is found to beat 75 times in a minute. Calculate its frequency and period.
+21. Explain reversible and irreversible processes. Describe the working of Carnot Engine. Obtain an expression for the Efficiency.

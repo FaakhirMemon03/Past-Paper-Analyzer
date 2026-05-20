@@ -1,0 +1,48 @@
+--- PAGE 1 ---
+Total No. of Questions - 21
+Total No. of Printed Pages - 3
+Time: 3 Hours
+Part -III
+PHYSICS - Paper - I (English Version)
+
+Note:- Read the following instructions carefully.
+(i) Max. Marks: 60
+(ii) Answer all the questions of Section-A. Answer any six questions in Section-B and answer any two questions in Section-C.
+(iii) In Section-A, questions from Sr. Nos. 1 to 10 are Very Short Answer Type. Each question carries two marks. Answer all questions at one place in the same order.
+(iv) In Section-B, questions from Sr. Nos. 11 to 18 are of Short Answer Type. Each question carries four marks.
+In Section-C, questions from Sr. Nos. 19 to 21 are of Long Answer Type. Each question carries eight marks.
+
+SECTION - A
+Note :- Answer all questions : (10 x 2 = 20)
+1. Which of the following has symmetry (a) Acceleration due to gravity (b) Law of gravitation.
+2. The error in measurement of radius of a sphere is 1%. What is the error in the measurement of volume?
+
+--- PAGE 2 ---
+3. State Boyle's Law and Charles Law.
+4. What is the acceleration of a projectile at the top of its trajectory?
+5. If a bomb at rest explodes into two pieces, the pieces must travel in opposite directions. Explain.
+6. What is the pressure on a swimmer 10m below the surface of a lake? (g = 10m/sec^2)
+7. Define Viscosity. What are its units and dimensions?
+8. What is latent heat of fusion?
+9. The roof of buildings are often painted white during summer. Why?
+10. The absolute temperature of a gas is increased 3 times. What will be the increase in rms velocity of the gas molecule?
+
+SECTION - B
+Note:- Answer any six questions : (6 x 4 = 24)
+11. Two balls are projected from the same point in directions 30° and 60° with respect to the horizontal. What is the ratio of their initial velocities, if they (a) attain the same height, (b) have the same range?
+12. Show that the trajectory of an object thrown at certain angle with the horizontal is a parabola.
+13. Explain the terms limiting friction, dynamic friction and rolling friction.
+14. Define angular acceleration and torque. Establish the relation between angular acceleration and torque.
+
+--- PAGE 3 ---
+15. Define vector product. Explain the properties of a vector product with two examples.
+16. Define strain and explain the types of strain.
+17. What is a geostationary satellite? State its uses.
+18. Explain conduction, convection and radiation with examples.
+
+SECTION-C
+Note :- Answer any two questions : (2 x 8 = 16)
+19. What are collisions? Explain the possible types of collisions. Develop the theory of one-dimensional elastic collision.
+20. (a) Show that the motion of a simple pendulum is simple harmonic and hence, derive an equation for its time period. What is second's pendulum?
+    (b) What is the length of a simple pendulum, which ticks seconds?
+21. Explain reversible and irreversible processes. Describe the working of Carnot engine. Obtain an expression for the efficiency.
