@@ -1,0 +1,8 @@
+Q1. Solve the quadratic equation x^2 - 5x + 6 = 0.
+Q2. Find the inverse of the matrix A = [[3, 2], [1, 4]].
+Q3. Prove that sin^2(theta) + cos^2(theta) = 1.
+Q4. Find the derivative of y = 3x^3 - 5x^2 + 2x with respect to x.
+Q5. In a box of 10 red marbles and 5 blue marbles, find the probability of drawing a red marble.
+Q6. Evaluate the integral of (2x + 3) dx from 0 to 2.
+Q7. Solve the equation log(x) + log(x-3) = 1.
+Q8. Define parallel and perpendicular lines and state their gradients' relationship.
